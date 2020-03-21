@@ -53,6 +53,12 @@ header {
     background-image: url(https://media.giphy.com/media/mIZ9rPeMKefm0/giphy.gif);
     background-size: contain;
 }
+
+#registry .header {
+    background-image: url(pictures/thumbsup.jpg);
+    background-size: contain;
+}
+
 #rsvp .header {
     background-image: url(pictures/iswe.jpg);
     background-size: contain;
@@ -105,6 +111,16 @@ article {
     right: 0;
     width: 80%;
     height: 100%;
+}
+
+div {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}
+
+span:hover + div {
+    display: block;
 }
 /* Clear floats after the columns */
 section:after {
